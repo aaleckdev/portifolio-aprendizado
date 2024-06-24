@@ -50,9 +50,6 @@ header nav a {
     color: var(--primary);
 }
 
-header nav.opened {
-    display: flex;
-}
 
 @media screen and (width > 600px) {
     header {
@@ -66,5 +63,12 @@ header nav.opened {
     header nav {
         display: flex;
         flex-direction: row;
+    }
+}
+
+
+@media screen and (max-width: 599px){
+    .opened {
+        display: flex;
     }
 }
