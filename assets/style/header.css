@@ -44,6 +44,16 @@ header nav {
 
 }
 
+header nav a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--primary);
+}
+
+header nav.opened {
+    display: flex;
+}
+
 @media screen and (width > 600px) {
     header {
         flex-direction: row;

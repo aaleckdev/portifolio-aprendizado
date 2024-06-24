@@ -1,3 +1,4 @@
+/* variáveis para cores da página */
 :root {
     --background: #fff;
     --foreground: #6e07f3;
@@ -24,5 +25,21 @@ html {
 .container {
     width: 100%;
     max-width: 1200px;
+    /* Essa parte é para deixar todo o conteúdo centralizado na tela
+    mas que não ultrapasse 1200 pixels, fazendo com que todo o conteúdo da página
+    se comporte da maneira certa. Quando chegar em 1200, o container para de aumentar*/
     margin: auto;
+}
+
+.button {
+    display: inline-block;
+    border: 0.2rem solid var(--foreground);
+    border-radius: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    transition: all ease 0.1s;
+}
+
+.button:hover {
+    background-color: var(--foreground);
+    color: var(--primary-foreground);
 }
