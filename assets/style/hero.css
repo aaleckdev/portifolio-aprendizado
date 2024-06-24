@@ -1,0 +1,50 @@
+/* 
+Parte do hero
+*/
+.hero {
+    text-align: center;
+    padding: 3rem 1rem 0 1rem;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero h2 {
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.hero-avatar {
+    display: block;
+    width: 12rem;
+    height: auto;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.hero-devices {
+    display: block;
+    /* max-width: min(100%, 80rem); */
+    width: 100%;
+    max-width: 80rem;
+    height: auto;
+    margin: auto;
+}
+
+@media screen and (width > 600) {
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero-avatar {
+        width: 20rem;
+    }
+}
