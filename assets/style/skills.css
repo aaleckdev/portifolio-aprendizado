@@ -18,7 +18,7 @@
 
 .skills .skill {
     text-align: center;
-    border-right: 0; 
+    border-right: 0;
     border-bottom: 1px solid var(--primary-light);
     color: var(--primary);
     padding: 5rem 2rem;
@@ -38,4 +38,48 @@
         border-bottom: 0;
         border-right: 1px solid var(--primary-light);
     }
+}
+
+/* 
+Skill Itens
+*/
+
+.skill-icon {
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    color: var(--secondary-foreground);
+    margin: auto;
+}
+
+.skill-icon img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.skill-title{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 3rem 0;
+}
+
+.skill-desk {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+.skill-sub {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    color: var(--foreground);
+}
+
+.skill-txt {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
 }
